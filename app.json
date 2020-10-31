@@ -1,0 +1,44 @@
+{
+  "name": "GDrive-Uploader-Bot",
+  "description": "Telegram/Direct Links to GDrive Uploader Bot",
+  "repository": "https://github.com/viperadnan-git/google-drive-telegram-bot",
+  "logo": "https://telegra.ph/file/8669281aa2360613f7511.jpg",
+  "keywords": ["Telegram", "Google Drive", "uploader"],
+  "env": {
+    "ENV": {
+      "description": "Set it to anything to enable configuration by environment variables.",
+      "value": "ANYTHING"
+    },
+    "BOT_TOKEN": {
+      "description": "1323584648:AAEbJ_YWhdFUyzwVb-RNm2mn8aPjenkTrJo"
+    },
+    "APP_ID": {
+      "description": "1870013"
+    },
+    "API_HASH": {
+      "description": "89100093ce80a28206a7444c3a904974"
+    },
+    "SUDO_USERS": {
+      "description": "List of sudo users ids, seperated by space.",
+      "value": "999197022 939425014"
+    },
+    "SUPPORT_CHAT_LINK": {
+      "description": "https://github.com/dev-anaz-1."
+    },
+    "DOWNLOAD_DIRECTORY": {
+      "description": "Custom path for downloads. Must end with a forward slash.",
+      "value": "./downloads/"
+    }
+  },
+   "addons": [{
+    "plan": "heroku-postgresql"
+  }],
+   "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ]
+}

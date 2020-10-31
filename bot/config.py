@@ -1,10 +1,10 @@
 class config:
-    BOT_TOKEN = ""
-    APP_ID = ""
-    API_HASH = ""
-    DATABASE_URL = ""
+    BOT_TOKEN = "1323584648:AAEbJ_YWhdFUyzwVb-RNm2mn8aPjenkTrJo"
+    APP_ID = "1870013"
+    API_HASH = "89100093ce80a28206a7444c3a904974"
+    DATABASE_URL = "https://viperb.herokuapp.com/"
     SUDO_USERS = "" # Sepearted by space.
-    SUPPORT_CHAT_LINK = ""
+    SUPPORT_CHAT_LINK = "https://github.com/dev-anaz-1"
     DOWNLOAD_DIRECTORY = "./downloads/"
 
 

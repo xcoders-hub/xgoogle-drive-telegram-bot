@@ -3,7 +3,7 @@ class config:
     APP_ID = "1870013"
     API_HASH = "89100093ce80a28206a7444c3a904974"
     DATABASE_URL = "https://viperb.herokuapp.com/"
-    SUDO_USERS = "1 3 9 3 5 9 0 6 7 0" # Sepearted by space.
+    SUDO_USERS = "1393590670 688448558" # Sepearted by space.
     SUPPORT_CHAT_LINK = "http://t.me/devanaz1"
     DOWNLOAD_DIRECTORY = "./downloads/"
 
